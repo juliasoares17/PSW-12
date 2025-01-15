@@ -3,6 +3,7 @@ from models.database import engine
 from models.model import subscription, Payments
 from sqlmodel import Session, select
 from datetime import date, datetime
+import matplotlib.pyplot as plt
 
 class subscription_service:
     def __init__(self, engine):
@@ -97,6 +98,5 @@ class subscription_service:
         last_12_months2 = []
         for i in last_12_months:
             last_12_months2.append(i[0])
-        import matplotlib.pyplot as plt
         plt.plot(last_12_months2, values_for_months)
         plt.show()
