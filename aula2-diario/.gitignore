@@ -8,4 +8,8 @@ db.sqlite3
 media/
 *.bak
 lib/
+.env
+.venv
+env/
 venv/
+ENV/
