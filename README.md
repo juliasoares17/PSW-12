@@ -54,7 +54,7 @@ Para Linux:
 ```
 python3 templates/app.py
 ```
-
+pip install -r requirements.txt        
 
 ### Aula 2: Diário online (Aplicação Web com Python e Django)
 
