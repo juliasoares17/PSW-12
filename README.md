@@ -32,6 +32,17 @@ Quando possuimos assinaturas em diferentes serviços (como Netflix, Amazon Prime
 
 #### Como rodar:
 
+Abra uma janela do terminal de seu computador;
+
+Abra a pasta onde deseja clonar este repositório por meio deste comando:
+
+```
+cd (caminho da pasta)
+```
+Digite o comando para clonar o repositório:
+```
+git clone https://github.com/juliasoares17/PSW-12.git
+```
 Para Windows:
 
 ```
