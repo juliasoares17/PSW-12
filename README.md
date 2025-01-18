@@ -43,18 +43,98 @@ Digite o comando para clonar o repositório:
 ```
 git clone https://github.com/juliasoares17/PSW-12.git
 ```
+Abra a pasta do primeiro projeto com este comando:
+```
+cd PSW-12/aula1-assinaturas
+```
+Antes de prosseguir para baixar as dependências, há a opção de criar um **ambiente virtual**. Não é uma etapa obrigatória, mas um ambiente virtual permite que você baixe as tecnologias utilizadas neste projeto sem deixá-las diretamente em seu computador, evitando possíveis conflitos.
+
+Para criar um ambiente virtual, será necessário já ter o Python instalado em sua máquina. 
+
 Para Windows:
 
+- Baixe o instalador do Python:
+
+  - Acesse [python.org/downloads](https://www.python.org/downloads/).
+  - Escolha a versão desejada e baixe o instalador compatível com o Windows (a versão mais recente estará logo no começo da página)
+
+
+- Execute o instalador:
+
+  - Execute o arquivo baixado e marque a opção "Add Python to PATH" antes de prosseguir.
+
+  - Escolha "Customize installation" se desejar personalizar as opções ou "Install Now" para uma instalação padrão.
+
+- Abra o Prompt de Comando e verifique a instalação:
+
+    ```
+    python --version
+    ```
+    Deve retornar a versão instalada. Caso contrário, revise a configuração do PATH.
+
+- Crie e ative o ambiente (dentro da pasta do projeto):
+    ```
+    python -m venv nome_do_ambiente
+    ```
+    ```
+    nome_do_ambiente\Scripts\Activate   
+    ```
+    Você verá o nome do ambiente virtual no início da linha do terminal.
+
+<br>
+Para Linux:
+
+Em distribuições modernas, o Python pode vir pré-instalado. Verifique com:
+```
+python3 --version
+```
+Caso não esteja instalado, prossiga com os próximos passos.
+
+- Instale o Python com o gerenciador de pacotes da sua distribuição:
+
+  - Debian/Ubuntu:
+
+    ```
+    sudo apt update
+    sudo apt install python3 python3-pip
+    ```
+  - Fedora:
+
+     ```
+    sudo dnf install python3 python3-pip
+    ```
+- Verifique a instalação:
+    ```
+    python3 --version
+    ```
+    Deve retornar a versão instalada.
+
+- Crie e ative o ambiente virtual (dentro da pasta do projeto):
+    ```
+    python3 -m venv nome_do_ambiente
+    ```
+    ```
+    source nome_do_ambiente/bin/activate
+    ```
+    Você verá o nome do ambiente virtual no início da linha do terminal.
+<br>
+<br>
+
+Com o ambiente ativado, baixe as dependências do projeto:
+```
+pip install -r requirements.txt 
+```
+Por fim, rode o arquivo "app.py" do diretório "templates":
+
+Para Windows:
 ```
 python templates/app.py
 ```
-
 Para Linux:
-
 ```
 python3 templates/app.py
 ```
-pip install -r requirements.txt        
+       
 
 ### Aula 2: Diário online (Aplicação Web com Python e Django)
 
@@ -67,4 +147,14 @@ O objetivo principal deste segundo projeto é oferecer aos usuários uma ferrame
 - Adicionar tags e marcar pessoas em suas anotações;
 - Cadastrar pessoas novas;
 - Pesquisar anotações por data;
-- Visualizar gráficos que mostrar as pessoas e tags mais utilizadas;
+- Visualizar gráficos que mostram as pessoas mais marcadas e as tags mais utilizadas;
+
+#### Tecnologias utilizadas:
+
+- Python 3.13.1
+    - **Bibliotecas:**
+    - Pillow
+    - Django
+
+#### Como rodar:
+
