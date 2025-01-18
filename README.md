@@ -158,3 +158,57 @@ O objetivo principal deste segundo projeto é oferecer aos usuários uma ferrame
 
 #### Como rodar:
 
+Abra uma janela do terminal de seu computador;
+
+Abra a pasta onde deseja clonar este repositório por meio deste comando:
+
+```
+cd (caminho da pasta)
+```
+Digite o comando para clonar o repositório:
+```
+git clone https://github.com/juliasoares17/PSW-12.git
+```
+Abra a pasta do segundo projeto:
+```
+cd PSW-12/aula2-diario
+```
+Siga os passos para criar e ativar o ambiente virtual (opcional);
+
+Baixe as dependências:
+```
+pip install -r requirements.txt 
+```
+No caso deste projeto, será necessário rodar e interrompê-lo uma vez para que o banco de dados seja gerado. Para isso, digite o seguinte comando:
+
+Para Windows:
+```
+python manage.py runserver
+```
+Para Linux:
+```
+python3 manage.py runserver
+```
+Aperte CTRL + C para interrompê-lo em seguida.
+
+Para garantir que todas as tabelas necessárias surgirão, digite o comando:
+
+Para Windows:
+```
+python manage.py migrate
+```
+
+Para Linux:
+```
+python3 manage.py migrate
+```
+E rode o projeto novamente:
+
+Para Windows:
+```
+python manage.py runserver
+```
+Para Linux:
+```
+python3 manage.py runserver
+```
