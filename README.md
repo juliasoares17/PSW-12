@@ -228,7 +228,4 @@ O projeto do diário online envolve HTML e CSS, e a aparência atual dele é a p
 #### - Aperfeiçoar o gerador do gráfico do primeiro projeto;  
 No gerenciador de assinaturas, há a funcionalidade de gerar um gráfico baseado nos gastos do usuário durante os últimos doze meses. No entanto, este gráfico não está perfeito visualmente. Pretendo torná-lo mais apresentável o mais rápido possível.
 
-Novamente, agradeço ao Caio pela oportunidade e pela disponibilidade e paciência. Posso afirmar que esse evento foi uma ótima prática de minhas habilidades em Python e uma introdução extremamente agradável ao framework Django.
-
-=======
->>>>>>> d93139fa98ddb8b101d017f9bc34f1806ff41205
+Novamente, agradeço ao Caio pela oportunidade e pela disponibilidade e paciência. Posso afirmar que esse evento foi uma ótima prática de minhas habilidades em Python e uma introdução extremamente agradável ao framework Django. Estou ansiosa para desenvolver mais aplicações combinando essas duas tecnologias.
