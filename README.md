@@ -4,8 +4,6 @@
 
 Durante o evento Pystack Week - Returnal, pude aprimorar meu conhecimento sobre Python e ter meus primeiros contatos com o framework backend Django por meio de alguns projetos. O objetivo deste repositório é, além de agradecer a Caio Sampaio pela oportunidade, compartilhar meus resultados e tornar possível a visualização dessas ideias para aqueles que não acompanharam o evento.
 
-Utilizando a arquitetura MVT - Models, Views e Templates
-
 ## Sobre os projetos
 
 ### Aula 1: Sistema de gerenciamento de assinaturas (Python puro e banco de dados)
