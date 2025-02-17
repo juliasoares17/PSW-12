@@ -4,8 +4,6 @@
 
 Durante o evento Pystack Week - Returnal, pude aprimorar meu conhecimento sobre Python e ter meus primeiros contatos com o framework backend Django por meio de alguns projetos. O objetivo deste repositório é, além de agradecer a Caio Sampaio pela oportunidade, compartilhar meus resultados e tornar possível a visualização dessas ideias para aqueles que não acompanharam o evento.
 
-Utilizando a arquitetura MVT - Models, Views e Templates
-
 ## Sobre os projetos
 
 ### Aula 1: Sistema de gerenciamento de assinaturas (Python puro e banco de dados)
@@ -120,7 +118,7 @@ Caso não esteja instalado, prossiga com os próximos passos.
 <br>
 <br>
 
-Com o ambiente ativado, baixe as dependências do projeto:
+Após seguir os passos adequados para o seu sistema operacional, com o ambiente ativado, baixe as dependências do projeto:
 ```
 pip install -r requirements.txt 
 ```
@@ -134,7 +132,8 @@ Para Linux:
 ```
 python3 templates/app.py
 ```
-       
+
+Você poderá interagir com o projeto por meio de seu terminal.
 
 ### Aula 2: Diário online (Aplicação Web com Python e Django)
 
@@ -179,7 +178,7 @@ Baixe as dependências:
 ```
 pip install -r requirements.txt 
 ```
-No caso deste projeto, será necessário rodar e interrompê-lo uma vez para que o banco de dados seja gerado. Para isso, digite o seguinte comando:
+No caso deste projeto, será necessário rodar e interrompê-lo uma vez para que o banco de dados seja gerado corretamente. Para isso, digite o seguinte comando:
 
 Para Windows:
 ```
@@ -212,3 +211,21 @@ Para Linux:
 ```
 python3 manage.py runserver
 ```
+
+
+## Conclusão
+
+A Pystack Week - Returnal certamente foi um evento que agregou muito ao meu portifólio na área da tecnologia. Algumas horas de esforço que certamente valeram à pena.
+
+### Próximos passos
+#### - Adicionar o terceiro projeto ao repositório;  
+Caio Sampaio, ao todo, guiou a codificação de três projetos durante a PSW, porém meu terceiro projeto, que trata-se de um encurtador de links, está enfrentando um pequeno problema relacionado à função de gerar QR code. Resolverei-o o quanto antes para poder adicioná-lo a este repositório.
+
+#### - Customizar o segundo projeto;  
+O projeto do diário online envolve HTML e CSS, e a aparência atual dele é a padrão, que foi ensinada pelo próprio Caio durante o evento. No entanto, quando tiver a oportunidade em meio à minha rotina, pretendo customizar este projeto, tanto visualmente quanto com possíveis novas funcionalidades.
+
+#### - Aperfeiçoar o gerador do gráfico do primeiro projeto;  
+No gerenciador de assinaturas, há a funcionalidade de gerar um gráfico baseado nos gastos do usuário durante os últimos doze meses. No entanto, este gráfico não está perfeito visualmente. Pretendo torná-lo mais apresentável o mais rápido possível.
+
+Novamente, agradeço ao Caio pela oportunidade e pela disponibilidade e paciência. Posso afirmar que esse evento foi uma ótima prática de minhas habilidades em Python e uma introdução extremamente agradável ao framework Django.
+
