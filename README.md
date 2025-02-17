@@ -211,6 +211,7 @@ Para Linux:
 ```
 python3 manage.py runserver
 ```
+<<<<<<< HEAD
 
 
 ## Conclusão
@@ -229,3 +230,5 @@ No gerenciador de assinaturas, há a funcionalidade de gerar um gráfico baseado
 
 Novamente, agradeço ao Caio pela oportunidade e pela disponibilidade e paciência. Posso afirmar que esse evento foi uma ótima prática de minhas habilidades em Python e uma introdução extremamente agradável ao framework Django.
 
+=======
+>>>>>>> d93139fa98ddb8b101d017f9bc34f1806ff41205
