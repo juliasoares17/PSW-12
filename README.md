@@ -211,7 +211,6 @@ Para Linux:
 ```
 python3 manage.py runserver
 ```
-<<<<<<< HEAD
 
 
 ## Conclusão
